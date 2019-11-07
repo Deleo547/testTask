@@ -123,6 +123,11 @@ input:focus {
   text-transform: uppercase;
 }
 
+.slider-one img {
+  max-width: 60px;
+  margin-right: 106px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

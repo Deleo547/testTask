@@ -1,0 +1,131 @@
+.header {
+  padding: 24px 0;
+  color: #707070;
+  font-family: "Helvetica Neue Cyr Light";
+}
+
+.header-menu {
+  padding: 0;
+  padding-left: 60px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header-menu li {
+  margin-right: 18px;
+}
+
+.header-menu li a {
+  text-decoration: none;
+}
+
+.header-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header-text__tel {
+  font-size: 15px;
+}
+
+.button-o {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+  border: 2px solid #eb5a25;
+  border-radius: 25px;
+  color: #eb5a25;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.button-o:hover {
+  cursor: pointer;
+}
+
+.button-o:active,
+.button-o:focus {
+  outline: none;
+}
+
+.search {
+  font-family: "Helvetica Neue Cyr Light";
+  background-color: #26293b;
+  padding: 20px;
+  color: #f2f3f8;
+}
+
+.search-basket {
+  margin-left: 50px;
+}
+
+.search-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.search-img {
+  max-width: 18px;
+}
+
+input {
+  width: 300px;
+  padding: 10px 100px 10px 20px;
+  border-radius: 25px;
+}
+
+input:active,
+input:focus {
+  outline: none;
+}
+
+.main {
+  background: url("../img/002_main/mainBG.jpg") no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Helvetica Neue Cyr Medium";
+  height: 70vh;
+}
+
+.main-text__title {
+  padding-top: 135px;
+  font-size: 41px;
+  font-weight: 500;
+}
+
+.main-text__discount {
+  font-size: 41px;
+}
+
+.main-text__disc {
+  font-size: 55px;
+}
+
+.main-text__promo {
+  display: inline-block;
+  color: #636881;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: #fff;
+  padding: 14px 25px;
+  border-radius: 30px;
+  margin-top: 27px;
+}
+
+.main-text__pr {
+  color: #eb5a25;
+  text-transform: uppercase;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

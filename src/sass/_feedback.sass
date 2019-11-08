@@ -3,24 +3,25 @@
 	padding-top: 70px
 	padding-bottom: 70px
 	&-img
+		position: relative
 		display: inline-block
 		background-color: #2e6be5
+		z-index: 9
 	&-wrap
 		position: relative
 		border: 2px solid #f0f1f4
 		margin-bottom: 30px
-		padding-bottom: 25px
-		z-index: 9
+		padding-bottom: 25px 
 		&::before
 		  position: absolute
-		  left: 122px
-		  top: 0
-		  width: 77.5%
-		  height: 31px
+		  left: 0
+		  top: 1px
+		  width: 100%
+		  height: 30px
 		  background-color: #2e6be5
 		  content: ''
 		  display: block
-		  z-index: 1
+		  z-index: -1
 	&-text
 		&__autor
 			display: flex

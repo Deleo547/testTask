@@ -334,6 +334,7 @@ input:focus {
   color: #26293b;
   font-size: 15px;
   line-height: 17px;
+  max-width: 200px;
 }
 
 .suggest-text__price {
@@ -344,6 +345,117 @@ input:focus {
 
 .suggest-text__wrap img {
   max-width: 150px;
+}
+
+.feedback {
+  font-family: "Helvetica Neue Cyr Medium";
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.feedback-img {
+  display: inline-block;
+  background-color: #2e6be5;
+}
+
+.feedback-wrap {
+  position: relative;
+  border: 2px solid #f0f1f4;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  z-index: 9;
+}
+
+.feedback-wrap::before {
+  position: absolute;
+  left: 122px;
+  top: 0;
+  width: 77.5%;
+  height: 31px;
+  background-color: #2e6be5;
+  content: '';
+  display: block;
+  z-index: 1;
+}
+
+.feedback-text__autor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #26293b;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.feedback-text__title {
+  color: #26293b;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 23px;
+}
+
+.text-descr {
+  padding: 20px 88px 27px 45px;
+  color: #9398a7;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.blog {
+  position: relative;
+  font-family: "Helvetica Neue Cyr Medium";
+  margin-bottom: 70px;
+}
+
+.blog::before {
+  position: absolute;
+  left: 48%;
+  top: 0;
+  width: 580px;
+  height: 244px;
+  background-color: #f0f1f4;
+  content: '';
+  display: block;
+  z-index: 0;
+}
+
+.blog-bg {
+  padding: 25px 34px 24px 50px;
+}
+
+.blog-title {
+  color: #26293b;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 19px;
+}
+
+.blog-descr {
+  color: #9398a7;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.news-title {
+  color: #26293b;
+  font-family: "Helvetica Neue Cyr Medium";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
 }
 
 * {

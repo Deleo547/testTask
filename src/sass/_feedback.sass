@@ -1,0 +1,45 @@
+.feedback
+	font-family: $medium
+	padding-top: 70px
+	padding-bottom: 70px
+	&-img
+		display: inline-block
+		background-color: #2e6be5
+	&-wrap
+		position: relative
+		border: 2px solid #f0f1f4
+		margin-bottom: 30px
+		padding-bottom: 25px
+		z-index: 9
+		&::before
+		  position: absolute
+		  left: 122px
+		  top: 0
+		  width: 77.5%
+		  height: 31px
+		  background-color: #2e6be5
+		  content: ''
+		  display: block
+		  z-index: 1
+	&-text
+		&__autor
+			display: flex
+			flex-direction: row
+			justify-content: space-around
+			align-items: center
+			color: #26293b
+			font-size: 15px
+			font-weight: 500
+			line-height: 17px
+		&__title
+			color: #26293b
+			font-size: 30px
+			font-weight: 500
+			line-height: 20px
+			margin-bottom: 23px
+.text-descr
+	padding: 20px 88px 27px 45px
+	color: #9398a7
+	font-size: 15px
+	font-weight: 500
+	line-height: 20px
